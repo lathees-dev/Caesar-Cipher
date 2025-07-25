@@ -28,6 +28,7 @@ print(encoded)  # Khoor, Zruog!
 # Decoding
 decoded = caesar_cipher_decode(encoded, 3)
 print(decoded)  # Hello, World!
+```
 
 ## 🧠 Logic Summary
 - Shifts letters based on ASCII codes with wrap-around logic for both upper and lowercase.
@@ -35,4 +36,3 @@ print(decoded)  # Hello, World!
 - Ignores punctuation and whitespace.
 
 - Reversible by applying negative shift during decoding.
-```
